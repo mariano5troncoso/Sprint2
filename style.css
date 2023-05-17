@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 2px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+nav {
+    
+    display: flex;
+    background-color: cadetblue;
+    justify-content:space-between;
+    align-items: center;
+   
+    
+    
+}
+
+.menu1 a:hover {
+    background: rgb(141, 90, 199);
+    color: aqua;
+    padding: 10px;
+    transition: 1s;
+}
+
+
+
+.menu1 {
+    
+   display: flex;
+    
+}
+.logo1 {
+    
+    
+    display: flex
+    
+    
+    
+}
+
+
+h1 {
+    color: blueviolet;
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h2,h3 {
+    
+    
+    color: darkturquoise;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+h4 {
+    color: rgb(56, 156, 158);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+   background-image: url(https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg);
+    object-fit:cover;
+    background-position: center;
+
+
+    
+}
+header {
+    min-height: 15vh;
+}
+
+main {
+    min-height: 80vh;
+}
+.inicio1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.girl1{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    height: 300px;
+    width: 70%;
+   object-fit: cover;
+   
+   
+
+}
+.inicio2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 2rem;
+
+}
+ img { border-radius: 1rem;}   
+
+ .page2  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+
+ }
+
+ .page3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+ }
+ .vr3 {
+    
+    width: 400px;
+ }
+#text3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.links3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+ 
+footer {
+    display: flex;
+    background-color:cadetblue ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 5vh;
+    margin-top: auto;
+    
+}
+
+table,tr,th,td {
+    
+    color: cadetblue ;
+    border: 1px solid;
+    border-collapse:collapse ;
+    text-align: center;
+    width: 20;
+    padding:  50px;
+    margin: 0 auto;
+    
+    
+}
+
+table {
+    margin-top: 2rem;
+}
+
+#morei {
+    text-align: center;
+    margin-top: 2rem;
+}
+h3 {
+    width: 50%;
+}
+
+  li.a {list-style-type: decimal;
+    color: aliceblue;
+
+   }
+ul.b {
+    list-style-type: disc;
+    color: aliceblue;
+    margin-left: 2rem;
+}
+ 
+.contenedor1{
+    margin-top: 2rem;
+    font-size: larger;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenedor2{
+    width: 100%;
+    margin-top: 3rem;
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+
+#titulo-benefits {
+   text-align: center;
+   margin-top: 2rem;
+}
